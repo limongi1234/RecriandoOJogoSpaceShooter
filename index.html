@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+
+    <link rel = "shortcut icon" href = "assets/imgs/favicon.png" type = "image/x-icon">
+    <link rel = "stylesheet" href = "assets/style.css">
+    <script defer src = "assets/script.js"></script>
+
+    <title>Space Shooter Game</title>
+</head>
+
+<body>
+    <header>
+        <h1>👽Space Shooter Game🛸</h1>
+        <div class = "scoreboard">
+            <p id = "life">Vidas: 👽👽👽</p>
+            <p id = "score">Pontuação: 0</p>
+        </div>
+    </header>
+
+    <main id = "game-area">
+        <img src = "assets/imgs/player.png" class = "player">
+        <div class = "menu">
+            <div class = "instructions">
+                <h4>
+                    Instruções
+                </h4>
+                <p>
+                    Utilize as setas de cima e baixo do teclado para movimentar a sua nave e atire pressionando a barra
+                    de espaço.
+                    <br><br>
+                    Não deixe os inimigos passarem!
+                    <br><br>
+                    Para melhor experiência, pressione a tecla F11 para entrar em modo tela cheia.
+                </p>
+            </div>
+            <button class = "start-button" onclick = "playGame ()">Jogar</button>
+        </div>
+    </main>
+  </body>
+</html>

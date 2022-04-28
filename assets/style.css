@@ -1,0 +1,118 @@
+body
+{
+    background-color: #0d0d0d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.scoreboard
+{
+    display: flex;
+    font-size: 1.2em;
+    gap: 6em;
+    justify-content: space-evenly;
+}
+
+h1
+{
+    font-size: 2.5em;
+}
+
+h1, h4
+{
+    margin: 0;
+}
+
+#game-area
+{
+    background: url(imgs/space-blue.png);
+    background-size: cover;
+    border: 1px solid white;
+    border-radius: 4em;
+    position: relative;
+    height: 500px;
+    width: 700px;
+}
+
+.menu
+{
+    background-color: #f4f4f4d6;
+    border-radius: 2em;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.instructions
+{
+    color: blue;
+}
+
+.instructions p
+{
+    font-weight: 500;
+}
+
+.start-button
+{
+    border: none;
+    border-radius: 2em;
+    background-color:darkblue;
+    color: white;
+    font-weight: 700;
+    padding: 0.5em 5em;
+    cursor: pointer;
+}
+
+.start-button:hover
+{
+    opacity: 0.8;
+}
+
+.player
+{
+    position: absolute;
+    height: 70px;
+    width: 80px;
+    left: 20px;
+    top: 200px;
+}
+
+.laser
+{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+}
+
+.enemy
+{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+.enemy-transition
+{
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.dead
+{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    opacity: 0;
+}
