@@ -1,3 +1,5 @@
+> **Nota:** este repositório é uma cópia, feita para estudo, do projeto [space_shooter_jogo_desafio_projeto](https://github.com/joi-gn/space_shooter_jogo_desafio_projeto) de **[joi-gn](https://github.com/joi-gn)**, desenvolvido para o desafio de projeto da DIO. Todo o crédito pelo projeto é do autor original.
+
 # Space Shooter Game | Desafio Criando seu jogo no estilo Space Shooter
 
 Projeto desenvolvido para o desafio Criando seu jogo no estilo Space Shooter, utilizando HTML, CSS e JavaScript.  
